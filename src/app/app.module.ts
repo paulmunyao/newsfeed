@@ -17,7 +17,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     UserComponent,
   ],
   exports: [
-
+    MatButtonModule,
   ],
   imports: [
     BrowserModule,
