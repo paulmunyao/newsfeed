@@ -12,6 +12,7 @@ import { UserComponent } from './user/user.component';
 @NgModule({
   declarations: [AppComponent, ItemsComponent, ButtonComponent, UserComponent],
   imports: [BrowserModule, AppRoutingModule,MatButtonModule],
+  exports: []
   providers: [],
   bootstrap: [AppComponent],
 })
