@@ -12,7 +12,6 @@ import { ItemListComponent } from './item-list/item-list.component';
     AppComponent,
     ItemsComponent,
     ButtonComponent,
-    ItemListComponent
   ],
   imports: [
     BrowserModule,
