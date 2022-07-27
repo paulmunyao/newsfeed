@@ -12,7 +12,7 @@ import { UserComponent } from './user/user.component';
 @NgModule({
   declarations: [AppComponent, ItemsComponent, ButtonComponent, UserComponent],
   exports: [MatButtonModule],
-  imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
