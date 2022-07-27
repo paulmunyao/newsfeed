@@ -22,3 +22,4 @@ import { UserComponent } from './user/user.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+export class ButtonOverviewExample {}
