@@ -3,21 +3,17 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
-  styleUrls: ['./user.component.css']
+  styleUrls: ['./user.component.css'],
 })
 export class UserComponent implements OnInit {
   msg: string;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
-  clickEvent(){
-    this.msg = "Button is clicked";
+  clickEvent() {
+    this.msg = 'Button is clicked';
     return this.msg;
   }
-
-
-
 }
