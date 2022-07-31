@@ -14,7 +14,8 @@ export class UserComponent implements OnInit {
   }
 
   clickEvent(){
-    this.msg
+    this.msg = "Button is clicked";
+    return this.msg;
   }
 
 
