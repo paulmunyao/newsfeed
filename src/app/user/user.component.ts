@@ -13,7 +13,9 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  clickEvent()
+  clickEvent(){
+    this.msg
+  }
 
 
 
