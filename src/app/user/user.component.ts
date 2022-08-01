@@ -12,7 +12,7 @@ export class UserComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  showEvent() {
+  showEvent($event) {
     this.msg = 'Button is clicked';
     return this.msg;
   }
