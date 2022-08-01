@@ -14,7 +14,7 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {}
 
   toggleDisplay() {
-    this.msg = 'Friend1 like a photo of friend2';
+    this.msg = 'Friend1 liked a photo of friend2';
     this.isDisplay = !this.isDisplay;
 
     // return this.msg;
