@@ -14,7 +14,7 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {}
 
   toggleDisplay() {
-    this.isDisplay = !this.isDisplay;
+    this.isDisplay + this.msg ; !this.isDisplay + 'pl';
     this.msg = 'Button is clicked';
     // return this.msg;
   }
