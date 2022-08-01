@@ -15,6 +15,7 @@ export class UserComponent implements OnInit {
 
   toggleDisplay() {
     this.msg = 'Button is clicked';
+    this.isDisplay = !this.isDisplay;
     return this.msg;
   }
 }
