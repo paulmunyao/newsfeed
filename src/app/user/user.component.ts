@@ -7,12 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserComponent implements OnInit {
   msg!: string;
+  
 
   constructor() {}
 
   ngOnInit(): void {}
 
-  isDisplay = false;
+  
 
   toggleDisplay() {
     this.msg = 'Button is clicked';
