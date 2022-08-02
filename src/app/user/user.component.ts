@@ -18,7 +18,7 @@ export class UserComponent implements OnInit {
     if (x!.innerHTML === 'Friend1') {
       x!.innerHTML = "oojdsdiwd";
     } else {
-      x!.innerHTML = 'msg';
+      x!.innerHTML = 'Friend1';
     }
     this.msg = 'Friend1 liked a photo of friend2';
     this.isDisplay = !this.isDisplay;
