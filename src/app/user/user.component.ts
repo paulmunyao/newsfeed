@@ -15,7 +15,7 @@ export class UserComponent implements OnInit {
 
   toggleDisplay() {
     var x = document.getElementById('myDiv');
-    if (x!.innerHTML === 'All') {
+    if (x!.innerHTML === 'msg') {
       x!.innerHTML = 'swap';
     } else {
       x!.innerHTML = 'All';
