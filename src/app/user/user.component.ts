@@ -18,5 +18,7 @@ export class UserComponent implements OnInit {
     this.isDisplay = !this.isDisplay;
   }
 
-  
+  toggle(){
+    
+  }
 }
