@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user.component.css'],
 })
 export class UserComponent implements OnInit {
+  public show:boolean = false;
   msg!: string;
   isDisplay = true;
 
@@ -19,6 +20,6 @@ export class UserComponent implements OnInit {
   }
 
   toggle(){
-    
+
   }
 }
