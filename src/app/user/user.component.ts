@@ -18,12 +18,5 @@ export class UserComponent implements OnInit {
     this.isDisplay = !this.isDisplay;
   }
 
-  myFunction() {
-    var x = document.getElementById('myDiv');
-    if (x!.innerHTML === 'Friend1') {
-      x!.innerHTML = 'ojjjj';
-    } else {
-      x!.innerHTML = 'Friend1';
-    }
-  }
+  
 }
