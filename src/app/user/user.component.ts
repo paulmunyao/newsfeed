@@ -26,13 +26,12 @@ export class UserComponent implements OnInit {
     // return this.msg;
   }
 
-  myFunction(){
+  myFunction() {
     var x = document.getElementById('myDiv');
-    if (x!.innerHTML ==="Friend1"){
-      x!.innerHTML="ojjjj";
+    if (x!.innerHTML === 'Friend1') {
+      x!.innerHTML = 'ojjjj';
     } else {
-      x!.innerHTML="Friend1";
+      x!.innerHTML = 'Friend1';
     }
-
   }
 }
