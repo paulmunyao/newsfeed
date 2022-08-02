@@ -28,7 +28,7 @@ export class UserComponent implements OnInit {
 
   myFunction(){
     var x = document.getElementById('myDiv');
-    
+    if (x!.innerHTML ==="Friend1")
 
   }
 }
