@@ -3,7 +3,7 @@
 </div>
 <div id="myDiv">
   <button (click)="toggle()" mat-button>Friend1</button><br />
-  <h1>{{ msg }}</h1>
+  <h1 *ngIf>{{ msg }}</h1>
 </div>
 
 <button mat-button>Friend2</button><br />
