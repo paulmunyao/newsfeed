@@ -20,8 +20,8 @@ export class UserComponent implements OnInit {
     } else {
       x!.innerHTML = 'All';
     }
-    this.msg = 'Friend1 liked a photo of friend2';
-    this.isDisplay = !this.isDisplay;
+    // this.msg = 'Friend1 liked a photo of friend2';
+    // this.isDisplay = !this.isDisplay;
 
     // return this.msg;
   }
