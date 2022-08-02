@@ -27,6 +27,7 @@ export class UserComponent implements OnInit {
   }
 
   myFunction(){
+    var x = document.getElementById('myDiv')
 
   }
 }
