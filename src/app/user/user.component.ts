@@ -21,6 +21,6 @@ export class UserComponent implements OnInit {
   }
 
   toggle(){
-    
+    this.show = !this.show;
   }
 }
