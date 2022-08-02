@@ -16,8 +16,6 @@ export class UserComponent implements OnInit {
   toggleDisplay() {
     this.msg = 'Friend1 liked a photo of friend2';
     this.isDisplay = !this.isDisplay;
-
-    // return this.msg;
   }
 
   myFunction() {
