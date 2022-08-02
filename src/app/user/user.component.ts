@@ -26,7 +26,7 @@ export class UserComponent implements OnInit {
     // return this.msg;
   }
 
-  // myFunction(){
+  myFunction(){
 
-  // }
+  }
 }
