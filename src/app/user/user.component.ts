@@ -13,7 +13,7 @@ export class UserComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  toggleDisplay() {
+  function toggleDisplay() {
     var x = document.getElementById('myDiv');
     if (x!.innerHTML === 'Friend1') {
       x!.innerHTML = "oojdsdiwd";
