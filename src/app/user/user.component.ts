@@ -28,5 +28,5 @@ export class UserComponent implements OnInit {
     this.msg = "Show";
   }
 
-  toggleShow
+  toggleShow()
 }
