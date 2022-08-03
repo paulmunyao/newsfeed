@@ -30,6 +30,6 @@ export class UserComponent implements OnInit {
 
   toggleShow(){
     this.msg = "Show";
-    this.isShown = !this.isShown;
+    
   }
 }
