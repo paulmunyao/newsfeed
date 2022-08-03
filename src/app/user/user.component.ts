@@ -33,6 +33,6 @@ export class UserComponent implements OnInit {
     if(this.isShown)
     this.msg = "Hide";
   else
-    this.msg = "Sho";
+    this.msg = "Show";
   }
 }
