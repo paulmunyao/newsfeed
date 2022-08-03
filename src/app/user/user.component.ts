@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class UserComponent implements OnInit {
   public show:boolean = false;
   public msg:any = 'Show';
-  ;
+
   isDisplay = true;
 
   constructor() {}
