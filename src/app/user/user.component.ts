@@ -9,7 +9,7 @@ export class UserComponent implements OnInit {
   public show:boolean = false;
   public msg:any = 'Show';
   isDisplay = true;
-  public isShown
+  public isShown:boolean = false;
 
   constructor() {}
 
