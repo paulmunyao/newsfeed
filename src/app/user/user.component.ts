@@ -38,5 +38,6 @@ export class UserComponent implements OnInit {
   toggleNotification() {
     this.shown = !this.shown;
     if(this.shown) this.msg = 'Paul';
+    
   }
 }
