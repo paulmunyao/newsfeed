@@ -12,8 +12,6 @@ export class UserComponent implements OnInit {
   public show: boolean = false;
   public isShown: boolean = false;
   public shown: boolean = false;
-  
-  
 
   constructor() {}
 
@@ -24,7 +22,7 @@ export class UserComponent implements OnInit {
     this.isDisplay = !this.isDisplay;
   }
 
-  toggle() { 
+  toggle() {
     this.show = !this.show;
     if (this.show) this.msg = 'Hide';
     else this.msg = 'Show';
@@ -38,7 +36,7 @@ export class UserComponent implements OnInit {
 
   toggleNotification() {
     this.shown = !this.shown;
-    if(this.shown) this.msg = 'Paul';
+    if (this.shown) this.msg = 'Paul';
     else this.msg = 'Pa';
   }
 }
