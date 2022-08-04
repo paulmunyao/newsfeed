@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class UserComponent implements OnInit {
   msg!: string;
   public show: boolean = false;
-  isDisplay = true;
+  
   public isShown: boolean = false;
   isToggle!: true;
   
