@@ -11,7 +11,7 @@ export class UserComponent implements OnInit {
   isDisplay = true;
   public isShown: boolean = false;
   isToggle!: false;
-  msg: string;
+  msg: string | undefined;
 
   constructor() {}
 
