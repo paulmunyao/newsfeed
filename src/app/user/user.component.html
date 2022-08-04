@@ -5,7 +5,7 @@
 
 <!--functionality to show a single notification -->
 <button (click)="toggle()" mat-button>Friend1</button><br />
-<h1>
+<h1 *ngIf="show">
   {{ msg }}
 </h1>
 
