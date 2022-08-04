@@ -33,5 +33,5 @@ export class UserComponent implements OnInit {
     else this.msg = 'Show';
   }
 
-  
+  toggleNotification()
 }
