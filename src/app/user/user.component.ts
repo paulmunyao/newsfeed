@@ -11,7 +11,7 @@ export class UserComponent implements OnInit {
   // isToggle!: true;
   public show: boolean = false;
   public isShown: boolean = false;
-  
+  public shown: boolean = false;
   
   
 
