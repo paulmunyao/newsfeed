@@ -16,7 +16,7 @@
 </h1>
 
 <!-- functionality to show a single notification-->
-<button mat-button>Friend3</button><br />
+<button (click)="toggleNotification()" mat-button>Friend3</button><br />
 
 <button mat-button>Friend4</button><br />
 <h1 [hidden]="isDisplay">{{ msg }}</h1>
