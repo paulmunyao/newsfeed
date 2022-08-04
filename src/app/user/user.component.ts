@@ -6,10 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user.component.css'],
 })
 export class UserComponent implements OnInit {
-  public show:boolean = false;
-  public msg:any = 'Show';
+  public show: boolean = false;
+  public msg: any = 'Show';
   isDisplay = true;
-  public isShown:boolean = false;
+  public isShown: boolean = false;
 
   constructor() {}
 
@@ -20,21 +20,17 @@ export class UserComponent implements OnInit {
     this.isDisplay = !this.isDisplay;
   }
 
-  toggle(){
-    this.msg = 'Hide'
-    
+  toggle() {
+    this.msg = 'Hide';
+    this.isToggle = !this.isToggle;
     this.show = !this.show;
-    if(this.show)  
-    this.msg = "Hide";
-  else
-    this.msg = "Show";
+    if (this.show) this.msg = 'Hide';
+    else this.msg = 'Show';
   }
 
-  toggleShow(){
+  toggleShow() {
     this.isShown = !this.isShown;
-    if(this.isShown)
-    this.msg = "Show";
-  else
-    this.msg = "Show";
+    if (this.isShown) this.msg = 'Show';
+    else this.msg = 'Show';
   }
 }
