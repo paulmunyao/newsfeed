@@ -23,7 +23,7 @@ export class UserComponent implements OnInit {
 
   toggle() { 
     this.isShow = !this.isShow;
-    if (this.show) this.msg = 'Hide';
+    if (this.isShow) this.msg = 'Hide';
     else this.msg = 'Show';
   }
 
