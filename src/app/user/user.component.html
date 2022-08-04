@@ -17,7 +17,9 @@
 
 <!-- functionality to show a single notification-->
 <button (click)="toggleNotification()" mat-button>Friend3</button><br />
-
+<h1 *ngIf="shown">
+  {{ msg }}
+</h1>
 
 <button mat-button>Friend4</button><br />
 <h1 [hidden]="isDisplay">{{ msg }}</h1>
