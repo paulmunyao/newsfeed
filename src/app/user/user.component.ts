@@ -10,7 +10,7 @@ export class UserComponent implements OnInit {
   isDisplay = true;
   public show: boolean = false;
   public isShown: boolean = false;
-  isToggle!: true;
+  
   
 
   constructor() {}
