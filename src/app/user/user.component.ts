@@ -47,5 +47,7 @@ export class UserComponent implements OnInit {
     else this.msg = 'no view';
   }
 
-  toggleInfo()
+  toggleInfo() {
+    
+  }
 }
