@@ -38,4 +38,5 @@ export class UserComponent implements OnInit {
     if (this.shown) this.msg = 'Paul';
     else this.msg = 'Pa';
   }
+  
 }
