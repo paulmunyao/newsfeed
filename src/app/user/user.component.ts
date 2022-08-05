@@ -40,5 +40,5 @@ export class UserComponent implements OnInit {
     else this.msg = 'Pa';
   }
 
-  toggleView
+  toggleView()
 }
