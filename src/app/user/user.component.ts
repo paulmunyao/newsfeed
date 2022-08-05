@@ -8,7 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class UserComponent implements OnInit {
   msg!: string;
   isDisplay = true;
-
   public show: boolean = false;
   public isShown: boolean = false;
   public shown: boolean = false;
