@@ -50,5 +50,6 @@ export class UserComponent implements OnInit {
   toggleInfo() {
     this.info = !this.info;
     if (this.info) this.msg = 'Info';
+    else this.msg = 'no info';
   }
 }
