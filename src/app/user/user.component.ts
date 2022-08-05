@@ -20,7 +20,7 @@ export class UserComponent implements OnInit {
 
   toggleDisplay() {
     this.showDisplay = !this.showDisplay;
-    if (this.showDisplay) this.msg = "gh"
+    if (this.showDisplay) this.msg = ""
     else this.msg = ""
   }
 
