@@ -46,5 +46,6 @@ export class UserComponent implements OnInit {
     if (this.view) this.msg = 'View';
     else this.msg = 'no view';
   }
+
   
 }
