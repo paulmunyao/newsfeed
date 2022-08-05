@@ -1,35 +1,31 @@
 <!--functionality to show all the notifications  -->
+<button (click)="toggleDisplay()" mat-button>All<br /></button>
+<!--functionality to show a single notification -->
+<button (click)="toggle()" mat-button>Friend1</button><br />
+<h1 *ngIf="show">
+  {{ msg }}
+</h1>
 
-<button (click)="toggleDisplay()" mat-button>
-  All<br />
-</button>
-  <!--functionality to show a single notification -->
-  <button (click)="toggle()" mat-button>Friend1</button><br />
-  <h1 *ngIf="show">
-    {{ msg }}
-  </h1>
+<!-- functionality to show a single notification-->
+<button (click)="toggleShow()" mat-button>Friend2</button><br />
+<h1 *ngIf="isShown">
+  {{ msg }}
+</h1>
 
-  <!-- functionality to show a single notification-->
-  <button (click)="toggleShow()" mat-button>Friend2</button><br />
-  <h1 *ngIf="isShown">
-    {{ msg }}
-  </h1>
+<!-- functionality to show a single notification-->
+<button (click)="toggleNotification()" mat-button>Friend3</button><br />
+<h1 *ngIf="shown">
+  {{ msg }}
+</h1>
 
-  <!-- functionality to show a single notification-->
-  <button (click)="toggleNotification()" mat-button>Friend3</button><br />
-  <h1 *ngIf="shown">
-    {{ msg }}
-  </h1>
+<!-- functionality to show a single notification-->
+<button (click)="toggleView()" mat-button>Friend4</button><br />
+<h1 *ngIf="view">
+  {{ msg }}
+</h1>
 
-  <!-- functionality to show a single notification-->
-  <button (click)="toggleView()" mat-button>Friend4</button><br />
-  <h1 *ngIf="view">
-    {{ msg }}
-  </h1>
-
-  <!-- functionality to show a single notification-->
-  <button (click)="toggleInfo()" mat-button>Friend5</button><br />
-  <h1 *ngIf="info">
-    {{ msg }}
-  </h1>
-
+<!-- functionality to show a single notification-->
+<button (click)="toggleInfo()" mat-button>Friend5</button><br />
+<h1 *ngIf="info">
+  {{ msg }}
+</h1>
