@@ -12,6 +12,7 @@ export class UserComponent implements OnInit {
   public isShown: boolean = false;
   public shown: boolean = false;
   public view: boolean = false;
+  public info: boolean = false
 
   constructor() {}
 
