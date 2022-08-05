@@ -27,7 +27,7 @@ export class UserComponent implements OnInit {
   toggle() {
     this.show = !this.show;
     if (this.show) this.msg = 'Hide';
-    else this.msg = 'Show';
+    // else this.msg = 'Show';
   }
 
   toggleShow() {
@@ -39,7 +39,7 @@ export class UserComponent implements OnInit {
   toggleNotification() {
     this.shown = !this.shown;
     if (this.shown) this.msg = 'Paul';
-    else this.msg = 'Pa';
+    // else this.msg = 'Pa';
   }
 
   toggleView() {
