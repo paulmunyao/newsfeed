@@ -20,7 +20,7 @@ export class UserComponent implements OnInit {
 
   toggleDisplay() {
     this.msg = 'Friend1 liked a photo of friend2';
-    this.isDisplay = !this.isDisplay;
+    this.showDisplay = !this.isDisplay;
   }
 
   toggle() {
