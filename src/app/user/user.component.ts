@@ -41,6 +41,6 @@ export class UserComponent implements OnInit {
   }
 
   toggleView() {
-    
+    this.view = !this.view
   }
 }
