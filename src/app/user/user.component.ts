@@ -19,8 +19,7 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {}
 
   toggleDisplay() {
-    
-    this.showDisplay = !this.showDisplay;
+     this.showDisplay = !this.showDisplay;
   }
 
   toggle() {
