@@ -12,7 +12,7 @@ export class UserComponent implements OnInit {
   public isShown: boolean = false;
   public shown: boolean = false;
   public view: boolean = false;
-  public info: boolean = false
+  public info: boolean = false;
 
   constructor() {}
 
@@ -47,7 +47,5 @@ export class UserComponent implements OnInit {
     else this.msg = 'no view';
   }
 
-  toggleInfo() {
-    
-  }
+  toggleInfo() {}
 }
