@@ -48,6 +48,6 @@ export class UserComponent implements OnInit {
   }
 
   toggleInfo() {
-    
+    this.info = !this.info;
   }
 }
